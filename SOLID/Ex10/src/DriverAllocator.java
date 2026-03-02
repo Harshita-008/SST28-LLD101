@@ -1,6 +1,5 @@
-public class DriverAllocator {
+public class DriverAllocator implements IDriverService {
     public String allocate(String studentId) {
-        // fake deterministic driver
         return "DRV-17";
     }
 }
